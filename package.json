@@ -1,3 +1,4 @@
+{
   "name": "ChristmasBot",
   "version": "1.0.0",
   "description": "ChristmasBot by Ramell",
@@ -7,6 +8,5 @@
   },
   "dependencies": {
     "discord.js": "11.4.2"
-    "request": "2.81.0"
   }
 }

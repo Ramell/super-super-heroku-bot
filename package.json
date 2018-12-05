@@ -1,0 +1,13 @@
+  "name": "christmasbot",
+  "version": "1.0.0",
+  "description": "ChristmasBot by Ramell",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Ramell",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.4.2"
+  }
+}

@@ -1,6 +1,6 @@
 const Discord = require("discord.js");
 const botconfig = require("./botconfig.json");
-const TOKEN = "NTA3NTM4OTMyOTU1NjExMTM3.DryKGg.aB-aINXCbQ6Omw3b_h4zrv1L82M";
+const TOKEN = "NTA3NTM4OTMyOTU1NjExMTM3.DukKzg.328Eo6rB1XaOgIpz9sKBMrOwBFQ";
 
 const bot = new Discord.Client({disableEveryone: true});
 
@@ -8,12 +8,12 @@ bot.on("ready", async () => {
   console.log(`${bot.user.username} is online!`);
 
   bot.user.setActivity("The elves make toys", {type: "WATCHING"});
-  bot.user.setGame("ðŸŽ„Naughty or NiceðŸŽ„");
+  bot.user.setGame("Naughty or Nice");
 });
 
 bot.on("guildMemberAdd", function(member)
 {
-    member.send("**ChristmasBot** *Ho, Ho, Ho Merry Christmas and & welcome to xoxo!*");
+    member.send("**ChristmasBot** *Ho, Ho, Ho Merry Christmas and & welcome to **MCAlias!*");
     let memberRole = member.guild.roles.find("name", "Elf");
     member.addRole(memberRole);
 });
